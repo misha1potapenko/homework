@@ -15,7 +15,7 @@ translate = {
 
 def num_translate(num):
     try:
-        print(translate[num])
+        print(translate[num].title())
     except:
         print(None)
 
